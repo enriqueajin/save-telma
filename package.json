@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "tailwind-dev": "npx tailwindcss -i ./src/index.css -o ./styles.css --watch",
+    "tailwind-prod": "npx tailwindcss -i ./src/index.css -o ./styles.css",
+    "tailwind": "pnpm install tailwindcss && npx tailwindcss init && pnpm run tailwind-prod && pnpm uninstall tailwindcss",
+    "build": "pnpm run tailwindprod && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
