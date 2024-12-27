@@ -1,4 +1,5 @@
 import { Donate } from "./components/donate/Donate";
+import { Expenses } from "./components/expenses/Expenses";
 import { Header } from "./components/header/Header";
 import { Hero } from "./components/hero/Hero";
 
@@ -9,6 +10,7 @@ export function App () {
       <main>
         <Hero />
         <Donate />
+        <Expenses />
       </main>
     </>
   )
