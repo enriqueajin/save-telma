@@ -1,4 +1,3 @@
-import { useMobileNav } from "../../hooks/useMobileNav";
 import { Nav } from "./nav/Nav";
 
 export function Header () {
