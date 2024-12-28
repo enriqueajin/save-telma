@@ -7,7 +7,7 @@ export function Donate () {
       id='Donate' 
       className='flex h-screen items-center justify-center bg-softPurple'
     >
-      <div className='w-10/12 xl:w-9/12 gap-x-7 grid grid-cols-1 lg:grid-cols-2'>
+      <div className='w-10/12 xl:w-9/12 gap-x-7 grid grid-cols-1 lg:grid-cols-2 gap-y-10'>
         <div className='flex justify-center items-center'>
           <Img
             src='/donate.jpg' 
