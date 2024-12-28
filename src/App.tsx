@@ -1,5 +1,6 @@
 import { Donate } from "./components/donate/Donate";
 import { Expenses } from "./components/expenses/Expenses";
+import { Faq } from "./components/faq/Faq";
 import { Header } from "./components/header/Header";
 import { Hero } from "./components/hero/Hero";
 
@@ -11,6 +12,7 @@ export function App () {
         <Hero />
         <Donate />
         <Expenses />
+        <Faq />
       </main>
     </>
   )
