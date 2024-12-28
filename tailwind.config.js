@@ -16,7 +16,9 @@ export default {
         beige: "#F3E4D7",
         darkBeige: "#E0CCBC",
         chocolateBrown: "#4A0707",
-        darkBrown: "#504032"
+        darkBrown: "#504032",
+        softEmerald: "#CFEEE0",
+        darkEmerald: "#139476"
       }
     },
   },
